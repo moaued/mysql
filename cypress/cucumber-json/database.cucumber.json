@@ -1,0 +1,33 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "db",
+    "line": 1,
+    "id": "db",
+    "tags": [],
+    "uri": "database.feature",
+    "elements": [
+      {
+        "id": "db;database",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "database",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Connect to db",
+            "result": {
+              "status": "failed",
+              "duration": 869000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -273\n    +1\n\n    at Context.eval (cypress/e2e/database/db.js:8:30)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

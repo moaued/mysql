@@ -1,0 +1,32 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "W",
+    "line": 1,
+    "id": "w",
+    "tags": [],
+    "uri": "test.feature",
+    "elements": [
+      {
+        "id": "w;test",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "test",
+            "result": {
+              "status": "passed",
+              "duration": 240000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

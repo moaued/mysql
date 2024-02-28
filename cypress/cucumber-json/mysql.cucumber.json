@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "mysql",
+    "line": 1,
+    "id": "mysql",
+    "tags": [],
+    "uri": "mysql.feature",
+    "elements": [
+      {
+        "id": "mysql;teste",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "teste",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "INSERT INTO db",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Select from db",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "insert into db",
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
